@@ -5,6 +5,9 @@ on:
     - cron: '0 9 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -29,4 +32,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data.json
           git diff --staged --quiet || git commit -m "Auto-update NFL data"
-          git push   
+          git pull --rebase
+          git push
