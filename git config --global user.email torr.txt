@@ -1,0 +1,2 @@
+git config --global user.email "torrent@coxewagen.fr"
+echo ghp_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 > .token   

@@ -1,0 +1,132 @@
+import json
+import requests
+import math
+from datetime import datetime
+
+# --- 1. Standings ---
+standings = requests.get(
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/standings"
+).json()
+
+teams = {}
+for conf in standings.get("children", []):
+    for div in conf.get("children", []):
+        for team in div.get("children", []):
+            name = team["team"]["displayName"]
+            abbr = team["team"]["abbreviation"]
+            s = team["standings"][0]
+            wins = s.get("wins", 0) or 0
+            losses = s.get("losses", 0) or 0
+            pf = s.get("pointsFor", 0) or 0
+            pa = s.get("pointsAgainst", 0) or 0
+            gp = wins + losses
+            teams[name] = {
+                "abbr": abbr,
+                "wins": wins,
+                "losses": losses,
+                "pf": pf,
+                "pa": pa,
+                "gp": gp
+            }
+
+# --- 2. Rating = point differential par match + bonus par victoire ---
+ratings = {}
+for name, t in teams.items():
+    gp = t["gp"] if t["gp"] > 0 else 1
+    diff = (t["pf"] - t["pa"]) / gp
+    win_rate = t["wins"] / gp
+    # Combinaison : 60% point diff, 40% win rate (normalisé)
+    ratings[name] = diff * 0.6 + (win_rate - 0.5) * 10 * 0.4
+
+# --- 3. Prédiction ---
+HOME_ADV = 2.0
+
+def predict(home, away):
+    r_home = ratings.get(home, 0)
+    r_away = ratings.get(away, 0)
+    diff = r_home - r_away + HOME_ADV
+    p_home = 1 / (1 + math.exp(-diff / 6))
+    p_away = 1 - p_home
+    base = 23
+    exp_home = base + diff * 0.8
+    exp_away = base - diff * 0.8
+    return {
+        "pHome": round(p_home, 4),
+        "pAway": round(p_away, 4),
+        "expHome": max(0, round(exp_home)),
+        "expAway": max(0, round(exp_away))
+    }
+
+# --- 4. Scoreboard ---
+scoreboard = requests.get(
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
+).json()
+
+games = []
+for event in scoreboard.get("events", []):
+    comp = event["competitions"][0]
+    home = away = None
+    for c in comp["competitors"]:
+        if c["homeAway"] == "home":
+            home = c
+        else:
+            away = c
+    if not home or not away:
+        continue
+
+    home_name = home["team"]["displayName"]
+    away_name = away["team"]["displayName"]
+    completed = event["status"]["type"]["completed"]
+
+    game = {
+        "id": f"2026_05_{away['team']['abbreviation']}_{home['team']['abbreviation']}",
+        "week": 5,
+        "home": home_name,
+        "away": away_name,
+        "homeScore": home.get("score", 0),
+        "awayScore": away.get("score", 0),
+        "status": "final" if completed else "scheduled",
+        "kickoff": event["date"],
+        "abs": {"home": {"qb": False, "off": 0, "deff": 0}, "away": {"qb": False, "off": 0, "deff": 0}},
+        "pred": predict(home_name, away_name)
+    }
+    games.append(game)
+
+# --- 5. Fiche ---
+fiche = {}
+for name, t in teams.items():
+    rec = f"{t['wins']}-{t['losses']}"
+    fiche[name] = {
+        "rec": rec,
+        "pf": t["pf"],
+        "pa": t["pa"],
+        "form": []
+    }
+
+# --- 6. Écrire data.json ---
+data = {
+    "updatedAt": datetime.now().isoformat(),
+    "updatedLabel": datetime.now().strftime("%d/%m/%Y a %H:%M"),
+    "season": 2026,
+    "week": 5,
+    "weeksAvailable": list(range(1, 19)),
+    "weeks": {str(w): (games if w == 5 else []) for w in range(1, 19)},
+    "teams": {t: {"abbr": v["abbr"], "nick": v["abbr"]} for t, v in teams.items()},
+    "fiche": fiche,
+    "safe": 0.6,
+    "games": games,
+    "bilan": {"total": 0, "correct": 0, "safeTotal": 0, "safeCorrect": 0, "list": []},
+    "absences": []
+}
+
+with open("data.json", "w") as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+# Afficher les prédictions pour vérifier
+print("✅ data.json mis à jour !\n")
+print(f"{'Match':<40} {'Proba':<12} {'Score':<10}")
+print("-" * 65)
+for g in games:
+    label = f"{g['away']} vs {g['home']}"
+    p = g["pred"]
+    print(f"{label:<40} {p['pHome']:.0%}/{p['pAway']:.0%}     {p['expHome']}-{p['expAway']}")   
