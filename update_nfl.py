@@ -169,8 +169,8 @@ data = {
     "bilan": {"total": 0, "correct": 0, "safeTotal": 0, "safeCorrect": 0, "list": []},
     "absences": []
 }
-
-    json.dump(data, f, indent=2, ensure_ascii=False)
+with open("data.json", "w") as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)   
 
 print(f"\n✅ data.json mis à jour ! ({len(games)} matchs)\n")
 print(f"{'Match':<50} {'Proba':<12} {'Score':<8}")
