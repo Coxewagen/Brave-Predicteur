@@ -21,7 +21,7 @@ jobs:
         run: pip install nflreadpy requests
 
       - name: Run update script
-        run: python update_nfl1.py
+        run: python update_nfl.py
 
       - name: Commit and push
         run: |
