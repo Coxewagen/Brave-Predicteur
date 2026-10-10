@@ -35,9 +35,47 @@ for row in scores.iter_rows(named=True):
         else:
             teams[abbr]["losses"] += 1
 
-# --- 3. Mapping abbr → nom complet ---
-with open("data.json") as f:
-    old = json.load(f)
+# --- 3. Couleurs et noms (hardcodés) ---
+TEAMS_INFO = {
+    "ARI": ("Arizona Cardinals", "Cardinals", "#97233F", "#000000"),
+    "ATL": ("Atlanta Falcons", "Falcons", "#A71930", "#000000"),
+    "BAL": ("Baltimore Ravens", "Ravens", "#241773", "#9E7C0C"),
+    "BUF": ("Buffalo Bills", "Bills", "#00338D", "#C60C30"),
+    "CAR": ("Carolina Panthers", "Panthers", "#0085CA", "#000000"),
+    "CHI": ("Chicago Bears", "Bears", "#0B162A", "#E64100"),
+    "CIN": ("Cincinnati Bengals", "Bengals", "#FB4F14", "#000000"),
+    "CLE": ("Cleveland Browns", "Browns", "#FF3C00", "#311D00"),
+    "DAL": ("Dallas Cowboys", "Cowboys", "#002244", "#B0B7BC"),
+    "DEN": ("Denver Broncos", "Broncos", "#002244", "#FB4F14"),
+    "DET": ("Detroit Lions", "Lions", "#0076B6", "#B0B7BC"),
+    "GB":  ("Green Bay Packers", "Packers", "#203731", "#FFB612"),
+    "HOU": ("Houston Texans", "Texans", "#03202F", "#A71930"),
+    "IND": ("Indianapolis Colts", "Colts", "#002C5F", "#a5acaf"),
+    "JAX": ("Jacksonville Jaguars", "Jaguars", "#006778", "#000000"),
+    "KC":  ("Kansas City Chiefs", "Chiefs", "#E31837", "#FFB612"),
+    "LAR": ("Los Angeles Rams", "Rams", "#003594", "#FFD100"),
+    "LAC": ("Los Angeles Chargers", "Chargers", "#007BC7", "#ffc20e"),
+    "LV":  ("Las Vegas Raiders", "Raiders", "#000000", "#A5ACAF"),
+    "MIA": ("Miami Dolphins", "Dolphins", "#008E97", "#F58220"),
+    "MIN": ("Minnesota Vikings", "Vikings", "#4F2683", "#FFC62F"),
+    "NE":  ("New England Patriots", "Patriots", "#002244", "#C60C30"),
+    "NO":  ("New Orleans Saints", "Saints", "#D3BC8D", "#000000"),
+    "NYG": ("New York Giants", "Giants", "#0B2265", "#A71930"),
+    "NYJ": ("New York Jets", "Jets", "#003F2D", "#000000"),
+    "PHI": ("Philadelphia Eagles", "Eagles", "#004C54", "#A5ACAF"),
+    "PIT": ("Pittsburgh Steelers", "Steelers", "#000000", "#FFB612"),
+    "SEA": ("Seattle Seahawks", "Seahawks", "#002244", "#69be28"),
+    "SF":  ("San Francisco 49ers", "49ers", "#AA0000", "#B3995D"),
+    "TB":  ("Tampa Bay Buccaneers", "Buccaneers", "#A71930", "#322F2B"),
+    "TEN": ("Tennessee Titans", "Titans", "#4495D2", "#D50A0A"),
+    "WAS": ("Washington Commanders", "Commanders", "#5A1414", "#FFB612"),
+}
+
+abbr_to_name = {abbr: info[0] for abbr, info in TEAMS_INFO.items()}
+teams_data = {
+    info[0]: {"abbr": abbr, "nick": info[1], "c1": info[2], "c2": info[3]}
+    for abbr, info in TEAMS_INFO.items()
+}   
 
 abbr_to_name = {}
 for name, info in old.get("teams", {}).items():
@@ -124,7 +162,7 @@ data = {
     "week": 5,
     "weeksAvailable": list(range(1, 19)),
     "weeks": {str(w): (games if w == 5 else []) for w in range(1, 19)},
-    "teams": old.get("teams", {}),
+    "teams": teams_data,
     "fiche": fiche,
     "safe": 0.6,
     "games": games,
@@ -132,7 +170,6 @@ data = {
     "absences": []
 }
 
-with open("data.json", "w") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
 print(f"\n✅ data.json mis à jour ! ({len(games)} matchs)\n")
