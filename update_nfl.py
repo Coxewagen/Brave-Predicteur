@@ -72,21 +72,7 @@ TEAMS_INFO = {
 }
 
 abbr_to_name = {abbr: info[0] for abbr, info in TEAMS_INFO.items()}
-teams_data = {
-    info[0]: {"abbr": abbr, "nick": info[1], "c1": info[2], "c2": info[3]}
-    for abbr, info in TEAMS_INFO.items()
-}   
-
-abbr_to_name = {}
-for name, info in old.get("teams", {}).items():
-    abbr_to_name[info["abbr"]] = name
-
-print(f"\n{'Abbr':<6} {'Nom':<25} {'Rec':<8} {'PF':<6} {'PA':<6} {'Diff':<6}")
-print("-" * 65)
-for abbr, t in sorted(teams.items()):
-    name = abbr_to_name.get(abbr, abbr)
-    diff = t["pf"] - t["pa"]
-    print(f"{abbr:<6} {name:<25} {t['wins']}-{t['losses']:<4} {t['pf']:<6} {t['pa']:<6} {diff:+d}")
+teams_data = {info[0]: {"abbr": abbr, "nick": info[1], "c1": info[2], "c2": info[3]} for abbr, info in TEAMS_INFO.items()}   
 
 # --- 4. Rating ---
 ratings = {}
