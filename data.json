@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-10T17:06:29.866726",
-  "updatedLabel": "10/10/2026 a 17:06",
+  "updatedAt": "2026-10-10T18:29:56.732789",
+  "updatedLabel": "10/10/2026 a 18:29",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -464,15 +464,208 @@
     "17": [],
     "18": []
   },
-  "teams": {},
+  "teams": {
+    "Arizona Cardinals": {
+      "abbr": "ARI",
+      "nick": "Cardinals",
+      "c1": "#97233F",
+      "c2": "#000000"
+    },
+    "Atlanta Falcons": {
+      "abbr": "ATL",
+      "nick": "Falcons",
+      "c1": "#A71930",
+      "c2": "#000000"
+    },
+    "Baltimore Ravens": {
+      "abbr": "BAL",
+      "nick": "Ravens",
+      "c1": "#241773",
+      "c2": "#9E7C0C"
+    },
+    "Buffalo Bills": {
+      "abbr": "BUF",
+      "nick": "Bills",
+      "c1": "#00338D",
+      "c2": "#C60C30"
+    },
+    "Carolina Panthers": {
+      "abbr": "CAR",
+      "nick": "Panthers",
+      "c1": "#0085CA",
+      "c2": "#000000"
+    },
+    "Chicago Bears": {
+      "abbr": "CHI",
+      "nick": "Bears",
+      "c1": "#0B162A",
+      "c2": "#E64100"
+    },
+    "Cincinnati Bengals": {
+      "abbr": "CIN",
+      "nick": "Bengals",
+      "c1": "#FB4F14",
+      "c2": "#000000"
+    },
+    "Cleveland Browns": {
+      "abbr": "CLE",
+      "nick": "Browns",
+      "c1": "#FF3C00",
+      "c2": "#311D00"
+    },
+    "Dallas Cowboys": {
+      "abbr": "DAL",
+      "nick": "Cowboys",
+      "c1": "#002244",
+      "c2": "#B0B7BC"
+    },
+    "Denver Broncos": {
+      "abbr": "DEN",
+      "nick": "Broncos",
+      "c1": "#002244",
+      "c2": "#FB4F14"
+    },
+    "Detroit Lions": {
+      "abbr": "DET",
+      "nick": "Lions",
+      "c1": "#0076B6",
+      "c2": "#B0B7BC"
+    },
+    "Green Bay Packers": {
+      "abbr": "GB",
+      "nick": "Packers",
+      "c1": "#203731",
+      "c2": "#FFB612"
+    },
+    "Houston Texans": {
+      "abbr": "HOU",
+      "nick": "Texans",
+      "c1": "#03202F",
+      "c2": "#A71930"
+    },
+    "Indianapolis Colts": {
+      "abbr": "IND",
+      "nick": "Colts",
+      "c1": "#002C5F",
+      "c2": "#a5acaf"
+    },
+    "Jacksonville Jaguars": {
+      "abbr": "JAX",
+      "nick": "Jaguars",
+      "c1": "#006778",
+      "c2": "#000000"
+    },
+    "Kansas City Chiefs": {
+      "abbr": "KC",
+      "nick": "Chiefs",
+      "c1": "#E31837",
+      "c2": "#FFB612"
+    },
+    "Los Angeles Rams": {
+      "abbr": "LAR",
+      "nick": "Rams",
+      "c1": "#003594",
+      "c2": "#FFD100"
+    },
+    "Los Angeles Chargers": {
+      "abbr": "LAC",
+      "nick": "Chargers",
+      "c1": "#007BC7",
+      "c2": "#ffc20e"
+    },
+    "Las Vegas Raiders": {
+      "abbr": "LV",
+      "nick": "Raiders",
+      "c1": "#000000",
+      "c2": "#A5ACAF"
+    },
+    "Miami Dolphins": {
+      "abbr": "MIA",
+      "nick": "Dolphins",
+      "c1": "#008E97",
+      "c2": "#F58220"
+    },
+    "Minnesota Vikings": {
+      "abbr": "MIN",
+      "nick": "Vikings",
+      "c1": "#4F2683",
+      "c2": "#FFC62F"
+    },
+    "New England Patriots": {
+      "abbr": "NE",
+      "nick": "Patriots",
+      "c1": "#002244",
+      "c2": "#C60C30"
+    },
+    "New Orleans Saints": {
+      "abbr": "NO",
+      "nick": "Saints",
+      "c1": "#D3BC8D",
+      "c2": "#000000"
+    },
+    "New York Giants": {
+      "abbr": "NYG",
+      "nick": "Giants",
+      "c1": "#0B2265",
+      "c2": "#A71930"
+    },
+    "New York Jets": {
+      "abbr": "NYJ",
+      "nick": "Jets",
+      "c1": "#003F2D",
+      "c2": "#000000"
+    },
+    "Philadelphia Eagles": {
+      "abbr": "PHI",
+      "nick": "Eagles",
+      "c1": "#004C54",
+      "c2": "#A5ACAF"
+    },
+    "Pittsburgh Steelers": {
+      "abbr": "PIT",
+      "nick": "Steelers",
+      "c1": "#000000",
+      "c2": "#FFB612"
+    },
+    "Seattle Seahawks": {
+      "abbr": "SEA",
+      "nick": "Seahawks",
+      "c1": "#002244",
+      "c2": "#69be28"
+    },
+    "San Francisco 49ers": {
+      "abbr": "SF",
+      "nick": "49ers",
+      "c1": "#AA0000",
+      "c2": "#B3995D"
+    },
+    "Tampa Bay Buccaneers": {
+      "abbr": "TB",
+      "nick": "Buccaneers",
+      "c1": "#A71930",
+      "c2": "#322F2B"
+    },
+    "Tennessee Titans": {
+      "abbr": "TEN",
+      "nick": "Titans",
+      "c1": "#4495D2",
+      "c2": "#D50A0A"
+    },
+    "Washington Commanders": {
+      "abbr": "WAS",
+      "nick": "Commanders",
+      "c1": "#5A1414",
+      "c2": "#FFB612"
+    }
+  },
   "fiche": {
-    "SEA": {
+    "Seattle Seahawks": {
       "rec": "3-1",
       "pf": 105,
       "pa": 73,
       "form": []
     },
-    "NE": {
+    "New England Patriots": {
       "rec": "2-2",
       "pf": 65,
       "pa": 77,
@@ -484,175 +677,175 @@
       "pa": 83,
       "form": []
     },
-    "SF": {
+    "San Francisco 49ers": {
       "rec": "4-0",
       "pf": 122,
       "pa": 64,
       "form": []
     },
-    "CAR": {
+    "Carolina Panthers": {
       "rec": "2-2",
       "pf": 121,
       "pa": 109,
       "form": []
     },
-    "CHI": {
+    "Chicago Bears": {
       "rec": "3-1",
       "pf": 112,
       "pa": 65,
       "form": []
     },
-    "CIN": {
+    "Cincinnati Bengals": {
       "rec": "2-2",
       "pf": 97,
       "pa": 85,
       "form": []
     },
-    "TB": {
+    "Tampa Bay Buccaneers": {
       "rec": "1-4",
       "pf": 100,
       "pa": 112,
       "form": []
     },
-    "DET": {
+    "Detroit Lions": {
       "rec": "2-2",
       "pf": 119,
       "pa": 127,
       "form": []
     },
-    "NO": {
+    "New Orleans Saints": {
       "rec": "1-3",
       "pf": 105,
       "pa": 128,
       "form": []
     },
-    "HOU": {
+    "Houston Texans": {
       "rec": "0-4",
       "pf": 84,
       "pa": 109,
       "form": []
     },
-    "BUF": {
+    "Buffalo Bills": {
       "rec": "3-1",
       "pf": 127,
       "pa": 107,
       "form": []
     },
-    "IND": {
+    "Indianapolis Colts": {
       "rec": "2-2",
       "pf": 102,
       "pa": 104,
       "form": []
     },
-    "BAL": {
+    "Baltimore Ravens": {
       "rec": "3-1",
       "pf": 116,
       "pa": 96,
       "form": []
     },
-    "JAX": {
+    "Jacksonville Jaguars": {
       "rec": "3-1",
       "pf": 104,
       "pa": 53,
       "form": []
     },
-    "CLE": {
+    "Cleveland Browns": {
       "rec": "3-1",
       "pf": 81,
       "pa": 95,
       "form": []
     },
-    "PIT": {
+    "Pittsburgh Steelers": {
       "rec": "2-2",
       "pf": 77,
       "pa": 87,
       "form": []
     },
-    "ATL": {
+    "Atlanta Falcons": {
       "rec": "2-2",
       "pf": 96,
       "pa": 92,
       "form": []
     },
-    "TEN": {
+    "Tennessee Titans": {
       "rec": "0-4",
       "pf": 55,
       "pa": 83,
       "form": []
     },
-    "NYJ": {
+    "New York Jets": {
       "rec": "1-3",
       "pf": 76,
       "pa": 84,
       "form": []
     },
-    "LAC": {
+    "Los Angeles Chargers": {
       "rec": "0-4",
       "pf": 67,
       "pa": 106,
       "form": []
     },
-    "ARI": {
+    "Arizona Cardinals": {
       "rec": "1-3",
       "pf": 87,
       "pa": 117,
       "form": []
     },
-    "LV": {
+    "Las Vegas Raiders": {
       "rec": "3-1",
       "pf": 115,
       "pa": 84,
       "form": []
     },
-    "MIA": {
+    "Miami Dolphins": {
       "rec": "0-4",
       "pf": 46,
       "pa": 101,
       "form": []
     },
-    "MIN": {
+    "Minnesota Vikings": {
       "rec": "4-0",
       "pf": 86,
       "pa": 51,
       "form": []
     },
-    "GB": {
+    "Green Bay Packers": {
       "rec": "2-2",
       "pf": 73,
       "pa": 105,
       "form": []
     },
-    "PHI": {
+    "Philadelphia Eagles": {
       "rec": "2-2",
       "pf": 75,
       "pa": 93,
       "form": []
     },
-    "WAS": {
+    "Washington Commanders": {
       "rec": "1-3",
       "pf": 88,
       "pa": 122,
       "form": []
     },
-    "NYG": {
+    "New York Giants": {
       "rec": "3-1",
       "pf": 82,
       "pa": 79,
       "form": []
     },
-    "DAL": {
+    "Dallas Cowboys": {
       "rec": "2-3",
       "pf": 138,
       "pa": 136,
       "form": []
     },
-    "KC": {
+    "Kansas City Chiefs": {
       "rec": "4-0",
       "pf": 118,
       "pa": 77,
       "form": []
     },
-    "DEN": {
+    "Denver Broncos": {
       "rec": "2-2",
       "pf": 74,
       "pa": 94,
