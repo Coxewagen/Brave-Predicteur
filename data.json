@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-10T18:29:56.732789",
-  "updatedLabel": "10/10/2026 a 18:29",
+  "updatedAt": "2026-10-11T15:10:43.505982",
+  "updatedLabel": "11/10/2026 a 15:10",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -30,40 +30,12 @@
     "4": [],
     "5": [
       {
-        "id": "2026_05_TB_DAL",
-        "week": 5,
-        "home": "Dallas Cowboys",
-        "away": "Tampa Bay Buccaneers",
-        "homeScore": 16,
-        "awayScore": 24,
-        "status": "final",
-        "kickoff": "2026-10-09T00:15Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.6785,
-          "pAway": 0.3215,
-          "expHome": 27,
-          "expAway": 19
-        }
-      },
-      {
         "id": "2026_05_PHI_JAX",
         "week": 5,
         "home": "Jacksonville Jaguars",
         "away": "Philadelphia Eagles",
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 7,
+        "awayScore": 14,
         "status": "scheduled",
         "kickoff": "2026-10-11T13:30Z",
         "abs": {
@@ -419,6 +391,34 @@
           "pAway": 0.5581,
           "expHome": 22,
           "expAway": 24
+        }
+      },
+      {
+        "id": "2026_05_TB_DAL",
+        "week": 5,
+        "home": "Dallas Cowboys",
+        "away": "Tampa Bay Buccaneers",
+        "homeScore": 16,
+        "awayScore": 24,
+        "status": "final",
+        "kickoff": "2026-10-09T00:15Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.6785,
+          "pAway": 0.3215,
+          "expHome": 27,
+          "expAway": 19
         }
       },
       {
@@ -855,40 +855,12 @@
   "safe": 0.6,
   "games": [
     {
-      "id": "2026_05_TB_DAL",
-      "week": 5,
-      "home": "Dallas Cowboys",
-      "away": "Tampa Bay Buccaneers",
-      "homeScore": 16,
-      "awayScore": 24,
-      "status": "final",
-      "kickoff": "2026-10-09T00:15Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.6785,
-        "pAway": 0.3215,
-        "expHome": 27,
-        "expAway": 19
-      }
-    },
-    {
       "id": "2026_05_PHI_JAX",
       "week": 5,
       "home": "Jacksonville Jaguars",
       "away": "Philadelphia Eagles",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 7,
+      "awayScore": 14,
       "status": "scheduled",
       "kickoff": "2026-10-11T13:30Z",
       "abs": {
@@ -1244,6 +1216,34 @@
         "pAway": 0.5581,
         "expHome": 22,
         "expAway": 24
+      }
+    },
+    {
+      "id": "2026_05_TB_DAL",
+      "week": 5,
+      "home": "Dallas Cowboys",
+      "away": "Tampa Bay Buccaneers",
+      "homeScore": 16,
+      "awayScore": 24,
+      "status": "final",
+      "kickoff": "2026-10-09T00:15Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.6785,
+        "pAway": 0.3215,
+        "expHome": 27,
+        "expAway": 19
       }
     },
     {
