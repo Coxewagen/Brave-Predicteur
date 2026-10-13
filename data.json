@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-12T18:19:29.232458",
-  "updatedLabel": "12/10/2026 a 18:19",
+  "updatedAt": "2026-10-13T16:33:52.891634",
+  "updatedLabel": "13/10/2026 a 16:33",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -29,34 +29,6 @@
     "3": [],
     "4": [],
     "5": [
-      {
-        "id": "2026_05_BUF_LAR",
-        "week": 5,
-        "home": "Los Angeles Rams",
-        "away": "Buffalo Bills",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
-        "kickoff": "2026-10-13T00:15Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.4174,
-          "pAway": 0.5826,
-          "expHome": 21,
-          "expAway": 25
-        }
-      },
       {
         "id": "2026_05_TB_DAL",
         "week": 5,
@@ -448,6 +420,34 @@
           "expHome": 20,
           "expAway": 26
         }
+      },
+      {
+        "id": "2026_05_BUF_LAR",
+        "week": 5,
+        "home": "Los Angeles Rams",
+        "away": "Buffalo Bills",
+        "homeScore": 34,
+        "awayScore": 37,
+        "status": "final",
+        "kickoff": "2026-10-13T00:15Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.4191,
+          "pAway": 0.5809,
+          "expHome": 21,
+          "expAway": 25
+        }
       }
     ],
     "6": [],
@@ -672,9 +672,9 @@
       "form": []
     },
     "LA": {
-      "rec": "2-2",
-      "pf": 85,
-      "pa": 83,
+      "rec": "2-3",
+      "pf": 119,
+      "pa": 120,
       "form": []
     },
     "San Francisco 49ers": {
@@ -726,9 +726,9 @@
       "form": []
     },
     "Buffalo Bills": {
-      "rec": "3-1",
-      "pf": 127,
-      "pa": 107,
+      "rec": "4-1",
+      "pf": 164,
+      "pa": 141,
       "form": []
     },
     "Indianapolis Colts": {
@@ -854,34 +854,6 @@
   },
   "safe": 0.6,
   "games": [
-    {
-      "id": "2026_05_BUF_LAR",
-      "week": 5,
-      "home": "Los Angeles Rams",
-      "away": "Buffalo Bills",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
-      "kickoff": "2026-10-13T00:15Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.4174,
-        "pAway": 0.5826,
-        "expHome": 21,
-        "expAway": 25
-      }
-    },
     {
       "id": "2026_05_TB_DAL",
       "week": 5,
@@ -1272,6 +1244,34 @@
         "pAway": 0.6303,
         "expHome": 20,
         "expAway": 26
+      }
+    },
+    {
+      "id": "2026_05_BUF_LAR",
+      "week": 5,
+      "home": "Los Angeles Rams",
+      "away": "Buffalo Bills",
+      "homeScore": 34,
+      "awayScore": 37,
+      "status": "final",
+      "kickoff": "2026-10-13T00:15Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.4191,
+        "pAway": 0.5809,
+        "expHome": 21,
+        "expAway": 25
       }
     }
   ],
