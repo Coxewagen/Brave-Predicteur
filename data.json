@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-15T13:46:09.599780",
-  "updatedLabel": "15/10/2026 a 13:46",
+  "updatedAt": "2026-10-16T13:36:22.031576",
+  "updatedLabel": "16/10/2026 a 13:36",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -34,9 +34,9 @@
         "week": 5,
         "home": "Denver Broncos",
         "away": "Seattle Seahawks",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
+        "homeScore": 17,
+        "awayScore": 14,
+        "status": "final",
         "kickoff": "2026-10-16T00:15Z",
         "abs": {
           "home": {
@@ -51,10 +51,10 @@
           }
         },
         "pred": {
-          "pHome": 0.3713,
-          "pAway": 0.6287,
-          "expHome": 20,
-          "expAway": 26
+          "pHome": 0.4571,
+          "pAway": 0.5429,
+          "expHome": 22,
+          "expAway": 24
         }
       },
       {
@@ -632,9 +632,9 @@
   },
   "fiche": {
     "Seattle Seahawks": {
-      "rec": "3-2",
-      "pf": 134,
-      "pa": 105,
+      "rec": "3-3",
+      "pf": 148,
+      "pa": 122,
       "form": []
     },
     "New England Patriots": {
@@ -818,9 +818,9 @@
       "form": []
     },
     "Denver Broncos": {
-      "rec": "3-2",
-      "pf": 97,
-      "pa": 111,
+      "rec": "4-2",
+      "pf": 114,
+      "pa": 125,
       "form": []
     }
   },
@@ -831,9 +831,9 @@
       "week": 5,
       "home": "Denver Broncos",
       "away": "Seattle Seahawks",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
+      "homeScore": 17,
+      "awayScore": 14,
+      "status": "final",
       "kickoff": "2026-10-16T00:15Z",
       "abs": {
         "home": {
@@ -848,10 +848,10 @@
         }
       },
       "pred": {
-        "pHome": 0.3713,
-        "pAway": 0.6287,
-        "expHome": 20,
-        "expAway": 26
+        "pHome": 0.4571,
+        "pAway": 0.5429,
+        "expHome": 22,
+        "expAway": 24
       }
     },
     {
