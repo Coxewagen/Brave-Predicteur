@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T15:58:50.033072",
-  "updatedLabel": "19/10/2026 a 15:58",
+  "updatedAt": "2026-10-20T13:56:46.948064",
+  "updatedLabel": "20/10/2026 a 13:56",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -29,34 +29,6 @@
     "3": [],
     "4": [],
     "5": [
-      {
-        "id": "2026_05_WSH_SF",
-        "week": 5,
-        "home": "San Francisco 49ers",
-        "away": "Washington Commanders",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
-        "kickoff": "2026-10-20T00:15Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.8684,
-          "pAway": 0.1316,
-          "expHome": 32,
-          "expAway": 14
-        }
-      },
       {
         "id": "2026_05_SEA_DEN",
         "week": 5,
@@ -420,6 +392,34 @@
           "expHome": 26,
           "expAway": 20
         }
+      },
+      {
+        "id": "2026_05_WSH_SF",
+        "week": 5,
+        "home": "San Francisco 49ers",
+        "away": "Washington Commanders",
+        "homeScore": 23,
+        "awayScore": 17,
+        "status": "final",
+        "kickoff": "2026-10-20T00:15Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.8561,
+          "pAway": 0.1439,
+          "expHome": 32,
+          "expAway": 14
+        }
       }
     ],
     "6": [],
@@ -650,9 +650,9 @@
       "form": []
     },
     "San Francisco 49ers": {
-      "rec": "5-0",
-      "pf": 154,
-      "pa": 93,
+      "rec": "6-0",
+      "pf": 177,
+      "pa": 110,
       "form": []
     },
     "Carolina Panthers": {
@@ -794,9 +794,9 @@
       "form": []
     },
     "Washington Commanders": {
-      "rec": "1-4",
-      "pf": 115,
-      "pa": 149,
+      "rec": "1-5",
+      "pf": 132,
+      "pa": 172,
       "form": []
     },
     "New York Giants": {
@@ -826,34 +826,6 @@
   },
   "safe": 0.6,
   "games": [
-    {
-      "id": "2026_05_WSH_SF",
-      "week": 5,
-      "home": "San Francisco 49ers",
-      "away": "Washington Commanders",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
-      "kickoff": "2026-10-20T00:15Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.8684,
-        "pAway": 0.1316,
-        "expHome": 32,
-        "expAway": 14
-      }
-    },
     {
       "id": "2026_05_SEA_DEN",
       "week": 5,
@@ -1216,6 +1188,34 @@
         "pAway": 0.3269,
         "expHome": 26,
         "expAway": 20
+      }
+    },
+    {
+      "id": "2026_05_WSH_SF",
+      "week": 5,
+      "home": "San Francisco 49ers",
+      "away": "Washington Commanders",
+      "homeScore": 23,
+      "awayScore": 17,
+      "status": "final",
+      "kickoff": "2026-10-20T00:15Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.8561,
+        "pAway": 0.1439,
+        "expHome": 32,
+        "expAway": 14
       }
     }
   ],
