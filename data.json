@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-22T14:11:16.409701",
-  "updatedLabel": "22/10/2026 a 14:11",
+  "updatedAt": "2026-10-23T13:54:48.665320",
+  "updatedLabel": "23/10/2026 a 13:54",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -34,9 +34,9 @@
         "week": 5,
         "home": "Chicago Bears",
         "away": "New England Patriots",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
+        "homeScore": 30,
+        "awayScore": 24,
+        "status": "final",
         "kickoff": "2026-10-23T00:15Z",
         "abs": {
           "home": {
@@ -51,10 +51,10 @@
           }
         },
         "pred": {
-          "pHome": 0.6146,
-          "pAway": 0.3854,
-          "expHome": 25,
-          "expAway": 21
+          "pHome": 0.6713,
+          "pAway": 0.3287,
+          "expHome": 26,
+          "expAway": 20
         }
       },
       {
@@ -638,9 +638,9 @@
       "form": []
     },
     "New England Patriots": {
-      "rec": "4-2",
-      "pf": 136,
-      "pa": 113,
+      "rec": "4-3",
+      "pf": 160,
+      "pa": 143,
       "form": []
     },
     "LA": {
@@ -662,9 +662,9 @@
       "form": []
     },
     "Chicago Bears": {
-      "rec": "4-2",
-      "pf": 150,
-      "pa": 119,
+      "rec": "5-2",
+      "pf": 180,
+      "pa": 143,
       "form": []
     },
     "Cincinnati Bengals": {
@@ -831,9 +831,9 @@
       "week": 5,
       "home": "Chicago Bears",
       "away": "New England Patriots",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
+      "homeScore": 30,
+      "awayScore": 24,
+      "status": "final",
       "kickoff": "2026-10-23T00:15Z",
       "abs": {
         "home": {
@@ -848,10 +848,10 @@
         }
       },
       "pred": {
-        "pHome": 0.6146,
-        "pAway": 0.3854,
-        "expHome": 25,
-        "expAway": 21
+        "pHome": 0.6713,
+        "pAway": 0.3287,
+        "expHome": 26,
+        "expAway": 20
       }
     },
     {
