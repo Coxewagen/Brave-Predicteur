@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-24T12:59:14.509636",
-  "updatedLabel": "24/10/2026 a 12:59",
+  "updatedAt": "2026-10-25T13:26:32.472653",
+  "updatedLabel": "25/10/2026 a 13:26",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -29,34 +29,6 @@
     "3": [],
     "4": [],
     "5": [
-      {
-        "id": "2026_05_NE_CHI",
-        "week": 5,
-        "home": "Chicago Bears",
-        "away": "New England Patriots",
-        "homeScore": 30,
-        "awayScore": 24,
-        "status": "final",
-        "kickoff": "2026-10-23T00:15Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.6713,
-          "pAway": 0.3287,
-          "expHome": 26,
-          "expAway": 20
-        }
-      },
       {
         "id": "2026_05_PIT_NO",
         "week": 5,
@@ -391,6 +363,34 @@
           "pAway": 0.6697,
           "expHome": 20,
           "expAway": 26
+        }
+      },
+      {
+        "id": "2026_05_NE_CHI",
+        "week": 5,
+        "home": "Chicago Bears",
+        "away": "New England Patriots",
+        "homeScore": 30,
+        "awayScore": 24,
+        "status": "final",
+        "kickoff": "2026-10-23T00:15Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.6713,
+          "pAway": 0.3287,
+          "expHome": 26,
+          "expAway": 20
         }
       },
       {
@@ -827,34 +827,6 @@
   "safe": 0.6,
   "games": [
     {
-      "id": "2026_05_NE_CHI",
-      "week": 5,
-      "home": "Chicago Bears",
-      "away": "New England Patriots",
-      "homeScore": 30,
-      "awayScore": 24,
-      "status": "final",
-      "kickoff": "2026-10-23T00:15Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.6713,
-        "pAway": 0.3287,
-        "expHome": 26,
-        "expAway": 20
-      }
-    },
-    {
       "id": "2026_05_PIT_NO",
       "week": 5,
       "home": "New Orleans Saints",
@@ -1188,6 +1160,34 @@
         "pAway": 0.6697,
         "expHome": 20,
         "expAway": 26
+      }
+    },
+    {
+      "id": "2026_05_NE_CHI",
+      "week": 5,
+      "home": "Chicago Bears",
+      "away": "New England Patriots",
+      "homeScore": 30,
+      "awayScore": 24,
+      "status": "final",
+      "kickoff": "2026-10-23T00:15Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.6713,
+        "pAway": 0.3287,
+        "expHome": 26,
+        "expAway": 20
       }
     },
     {
