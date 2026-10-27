@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-26T15:35:32.930262",
-  "updatedLabel": "26/10/2026 a 15:35",
+  "updatedAt": "2026-10-27T15:00:00.707145",
+  "updatedLabel": "27/10/2026 a 15:00",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -29,34 +29,6 @@
     "3": [],
     "4": [],
     "5": [
-      {
-        "id": "2026_05_DAL_PHI",
-        "week": 5,
-        "home": "Philadelphia Eagles",
-        "away": "Dallas Cowboys",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
-        "kickoff": "2026-10-27T00:15Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.4875,
-          "pAway": 0.5125,
-          "expHome": 23,
-          "expAway": 23
-        }
-      },
       {
         "id": "2026_05_NE_CHI",
         "week": 5,
@@ -419,6 +391,34 @@
           "pAway": 0.4734,
           "expHome": 24,
           "expAway": 22
+        }
+      },
+      {
+        "id": "2026_05_DAL_PHI",
+        "week": 5,
+        "home": "Philadelphia Eagles",
+        "away": "Dallas Cowboys",
+        "homeScore": 21,
+        "awayScore": 38,
+        "status": "final",
+        "kickoff": "2026-10-27T00:15Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.3598,
+          "pAway": 0.6402,
+          "expHome": 20,
+          "expAway": 26
         }
       }
     ],
@@ -788,9 +788,9 @@
       "form": []
     },
     "Philadelphia Eagles": {
-      "rec": "2-4",
-      "pf": 106,
-      "pa": 137,
+      "rec": "2-5",
+      "pf": 127,
+      "pa": 175,
       "form": []
     },
     "Washington Commanders": {
@@ -806,9 +806,9 @@
       "form": []
     },
     "Dallas Cowboys": {
-      "rec": "2-4",
-      "pf": 151,
-      "pa": 159,
+      "rec": "3-4",
+      "pf": 189,
+      "pa": 180,
       "form": []
     },
     "Kansas City Chiefs": {
@@ -826,34 +826,6 @@
   },
   "safe": 0.6,
   "games": [
-    {
-      "id": "2026_05_DAL_PHI",
-      "week": 5,
-      "home": "Philadelphia Eagles",
-      "away": "Dallas Cowboys",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
-      "kickoff": "2026-10-27T00:15Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.4875,
-        "pAway": 0.5125,
-        "expHome": 23,
-        "expAway": 23
-      }
-    },
     {
       "id": "2026_05_NE_CHI",
       "week": 5,
@@ -1216,6 +1188,34 @@
         "pAway": 0.4734,
         "expHome": 24,
         "expAway": 22
+      }
+    },
+    {
+      "id": "2026_05_DAL_PHI",
+      "week": 5,
+      "home": "Philadelphia Eagles",
+      "away": "Dallas Cowboys",
+      "homeScore": 21,
+      "awayScore": 38,
+      "status": "final",
+      "kickoff": "2026-10-27T00:15Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.3598,
+        "pAway": 0.6402,
+        "expHome": 20,
+        "expAway": 26
       }
     }
   ],
