@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-29T15:42:22.241916",
-  "updatedLabel": "29/10/2026 a 15:42",
+  "updatedAt": "2026-10-30T15:25:01.977348",
+  "updatedLabel": "30/10/2026 a 15:25",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -34,9 +34,9 @@
         "week": 5,
         "home": "Green Bay Packers",
         "away": "Carolina Panthers",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
+        "homeScore": 27,
+        "awayScore": 19,
+        "status": "final",
         "kickoff": "2026-10-30T00:15Z",
         "abs": {
           "home": {
@@ -51,10 +51,10 @@
           }
         },
         "pred": {
-          "pHome": 0.6185,
-          "pAway": 0.3815,
-          "expHome": 25,
-          "expAway": 21
+          "pHome": 0.6827,
+          "pAway": 0.3173,
+          "expHome": 27,
+          "expAway": 19
         }
       },
       {
@@ -656,9 +656,9 @@
       "form": []
     },
     "Carolina Panthers": {
-      "rec": "3-3",
-      "pf": 159,
-      "pa": 166,
+      "rec": "3-4",
+      "pf": 178,
+      "pa": 193,
       "form": []
     },
     "Chicago Bears": {
@@ -782,9 +782,9 @@
       "form": []
     },
     "Green Bay Packers": {
-      "rec": "4-3",
-      "pf": 144,
-      "pa": 145,
+      "rec": "5-3",
+      "pf": 171,
+      "pa": 164,
       "form": []
     },
     "Philadelphia Eagles": {
@@ -831,9 +831,9 @@
       "week": 5,
       "home": "Green Bay Packers",
       "away": "Carolina Panthers",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
+      "homeScore": 27,
+      "awayScore": 19,
+      "status": "final",
       "kickoff": "2026-10-30T00:15Z",
       "abs": {
         "home": {
@@ -848,10 +848,10 @@
         }
       },
       "pred": {
-        "pHome": 0.6185,
-        "pAway": 0.3815,
-        "expHome": 25,
-        "expAway": 21
+        "pHome": 0.6827,
+        "pAway": 0.3173,
+        "expHome": 27,
+        "expAway": 19
       }
     },
     {
