@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-31T14:53:24.496425",
-  "updatedLabel": "31/10/2026 a 14:53",
+  "updatedAt": "2026-11-01T15:32:38.169621",
+  "updatedLabel": "01/11/2026 a 15:32",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -29,34 +29,6 @@
     "3": [],
     "4": [],
     "5": [
-      {
-        "id": "2026_05_CAR_GB",
-        "week": 5,
-        "home": "Green Bay Packers",
-        "away": "Carolina Panthers",
-        "homeScore": 27,
-        "awayScore": 19,
-        "status": "final",
-        "kickoff": "2026-10-30T00:15Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.6827,
-          "pAway": 0.3173,
-          "expHome": 27,
-          "expAway": 19
-        }
-      },
       {
         "id": "2026_05_BAL_BUF",
         "week": 5,
@@ -391,6 +363,34 @@
           "pAway": 0.2383,
           "expHome": 29,
           "expAway": 17
+        }
+      },
+      {
+        "id": "2026_05_CAR_GB",
+        "week": 5,
+        "home": "Green Bay Packers",
+        "away": "Carolina Panthers",
+        "homeScore": 27,
+        "awayScore": 19,
+        "status": "final",
+        "kickoff": "2026-10-30T00:15Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.6827,
+          "pAway": 0.3173,
+          "expHome": 27,
+          "expAway": 19
         }
       },
       {
@@ -827,34 +827,6 @@
   "safe": 0.6,
   "games": [
     {
-      "id": "2026_05_CAR_GB",
-      "week": 5,
-      "home": "Green Bay Packers",
-      "away": "Carolina Panthers",
-      "homeScore": 27,
-      "awayScore": 19,
-      "status": "final",
-      "kickoff": "2026-10-30T00:15Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.6827,
-        "pAway": 0.3173,
-        "expHome": 27,
-        "expAway": 19
-      }
-    },
-    {
       "id": "2026_05_BAL_BUF",
       "week": 5,
       "home": "Buffalo Bills",
@@ -1188,6 +1160,34 @@
         "pAway": 0.2383,
         "expHome": 29,
         "expAway": 17
+      }
+    },
+    {
+      "id": "2026_05_CAR_GB",
+      "week": 5,
+      "home": "Green Bay Packers",
+      "away": "Carolina Panthers",
+      "homeScore": 27,
+      "awayScore": 19,
+      "status": "final",
+      "kickoff": "2026-10-30T00:15Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.6827,
+        "pAway": 0.3173,
+        "expHome": 27,
+        "expAway": 19
       }
     },
     {
