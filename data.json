@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T16:55:40.431492",
-  "updatedLabel": "05/11/2026 a 16:55",
+  "updatedAt": "2026-11-06T16:27:10.046347",
+  "updatedLabel": "06/11/2026 a 16:27",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -34,9 +34,9 @@
         "week": 5,
         "home": "Baltimore Ravens",
         "away": "Jacksonville Jaguars",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
+        "homeScore": 10,
+        "awayScore": 33,
+        "status": "final",
         "kickoff": "2026-11-06T01:15Z",
         "abs": {
           "home": {
@@ -51,10 +51,10 @@
           }
         },
         "pred": {
-          "pHome": 0.2102,
-          "pAway": 0.7898,
-          "expHome": 17,
-          "expAway": 29
+          "pHome": 0.149,
+          "pAway": 0.851,
+          "expHome": 15,
+          "expAway": 31
         }
       },
       {
@@ -738,15 +738,15 @@
       "form": []
     },
     "Baltimore Ravens": {
-      "rec": "4-4",
-      "pf": 179,
-      "pa": 203,
+      "rec": "4-5",
+      "pf": 189,
+      "pa": 236,
       "form": []
     },
     "Jacksonville Jaguars": {
-      "rec": "5-2",
-      "pf": 196,
-      "pa": 111,
+      "rec": "6-2",
+      "pf": 229,
+      "pa": 121,
       "form": []
     },
     "Cleveland Browns": {
@@ -859,9 +859,9 @@
       "week": 5,
       "home": "Baltimore Ravens",
       "away": "Jacksonville Jaguars",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
+      "homeScore": 10,
+      "awayScore": 33,
+      "status": "final",
       "kickoff": "2026-11-06T01:15Z",
       "abs": {
         "home": {
@@ -876,10 +876,10 @@
         }
       },
       "pred": {
-        "pHome": 0.2102,
-        "pAway": 0.7898,
-        "expHome": 17,
-        "expAway": 29
+        "pHome": 0.149,
+        "pAway": 0.851,
+        "expHome": 15,
+        "expAway": 31
       }
     },
     {
