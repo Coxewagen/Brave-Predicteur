@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T17:12:27.943387",
-  "updatedLabel": "12/11/2026 a 17:12",
+  "updatedAt": "2026-11-13T16:49:53.259494",
+  "updatedLabel": "13/11/2026 a 16:49",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -34,9 +34,9 @@
         "week": 5,
         "home": "New York Giants",
         "away": "Washington Commanders",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
+        "homeScore": 21,
+        "awayScore": 24,
+        "status": "final",
         "kickoff": "2026-11-13T01:15Z",
         "abs": {
           "home": {
@@ -51,10 +51,10 @@
           }
         },
         "pred": {
-          "pHome": 0.6322,
-          "pAway": 0.3678,
-          "expHome": 26,
-          "expAway": 20
+          "pHome": 0.6102,
+          "pAway": 0.3898,
+          "expHome": 25,
+          "expAway": 21
         }
       },
       {
@@ -794,15 +794,15 @@
       "form": []
     },
     "Washington Commanders": {
-      "rec": "2-6",
-      "pf": 172,
-      "pa": 202,
+      "rec": "3-6",
+      "pf": 196,
+      "pa": 223,
       "form": []
     },
     "New York Giants": {
-      "rec": "5-3",
-      "pf": 182,
-      "pa": 172,
+      "rec": "5-4",
+      "pf": 203,
+      "pa": 196,
       "form": []
     },
     "Dallas Cowboys": {
@@ -831,9 +831,9 @@
       "week": 5,
       "home": "New York Giants",
       "away": "Washington Commanders",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
+      "homeScore": 21,
+      "awayScore": 24,
+      "status": "final",
       "kickoff": "2026-11-13T01:15Z",
       "abs": {
         "home": {
@@ -848,10 +848,10 @@
         }
       },
       "pred": {
-        "pHome": 0.6322,
-        "pAway": 0.3678,
-        "expHome": 26,
-        "expAway": 20
+        "pHome": 0.6102,
+        "pAway": 0.3898,
+        "expHome": 25,
+        "expAway": 21
       }
     },
     {
