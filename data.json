@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14T15:24:25.888176",
-  "updatedLabel": "14/11/2026 a 15:24",
+  "updatedAt": "2026-11-15T15:57:17.715080",
+  "updatedLabel": "15/11/2026 a 15:57",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -30,40 +30,12 @@
     "4": [],
     "5": [
       {
-        "id": "2026_05_WSH_NYG",
-        "week": 5,
-        "home": "New York Giants",
-        "away": "Washington Commanders",
-        "homeScore": 21,
-        "awayScore": 24,
-        "status": "final",
-        "kickoff": "2026-11-13T01:15Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.6102,
-          "pAway": 0.3898,
-          "expHome": 25,
-          "expAway": 21
-        }
-      },
-      {
         "id": "2026_05_NE_DET",
         "week": 5,
         "home": "Detroit Lions",
         "away": "New England Patriots",
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 21,
+        "awayScore": 3,
         "status": "scheduled",
         "kickoff": "2026-11-15T14:30Z",
         "abs": {
@@ -391,6 +363,34 @@
           "pAway": 0.3327,
           "expHome": 26,
           "expAway": 20
+        }
+      },
+      {
+        "id": "2026_05_WSH_NYG",
+        "week": 5,
+        "home": "New York Giants",
+        "away": "Washington Commanders",
+        "homeScore": 21,
+        "awayScore": 24,
+        "status": "final",
+        "kickoff": "2026-11-13T01:15Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.6102,
+          "pAway": 0.3898,
+          "expHome": 25,
+          "expAway": 21
         }
       },
       {
@@ -827,40 +827,12 @@
   "safe": 0.6,
   "games": [
     {
-      "id": "2026_05_WSH_NYG",
-      "week": 5,
-      "home": "New York Giants",
-      "away": "Washington Commanders",
-      "homeScore": 21,
-      "awayScore": 24,
-      "status": "final",
-      "kickoff": "2026-11-13T01:15Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.6102,
-        "pAway": 0.3898,
-        "expHome": 25,
-        "expAway": 21
-      }
-    },
-    {
       "id": "2026_05_NE_DET",
       "week": 5,
       "home": "Detroit Lions",
       "away": "New England Patriots",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 21,
+      "awayScore": 3,
       "status": "scheduled",
       "kickoff": "2026-11-15T14:30Z",
       "abs": {
@@ -1188,6 +1160,34 @@
         "pAway": 0.3327,
         "expHome": 26,
         "expAway": 20
+      }
+    },
+    {
+      "id": "2026_05_WSH_NYG",
+      "week": 5,
+      "home": "New York Giants",
+      "away": "Washington Commanders",
+      "homeScore": 21,
+      "awayScore": 24,
+      "status": "final",
+      "kickoff": "2026-11-13T01:15Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.6102,
+        "pAway": 0.3898,
+        "expHome": 25,
+        "expAway": 21
       }
     },
     {
