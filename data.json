@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T17:58:11.204717",
-  "updatedLabel": "17/11/2026 a 17:58",
+  "updatedAt": "2026-11-18T17:39:43.105261",
+  "updatedLabel": "18/11/2026 a 17:39",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -30,14 +30,14 @@
     "4": [],
     "5": [
       {
-        "id": "2026_05_WSH_NYG",
+        "id": "2026_05_IND_HOU",
         "week": 5,
-        "home": "New York Giants",
-        "away": "Washington Commanders",
-        "homeScore": 21,
-        "awayScore": 24,
-        "status": "final",
-        "kickoff": "2026-11-13T01:15Z",
+        "home": "Houston Texans",
+        "away": "Indianapolis Colts",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-20T01:15Z",
         "abs": {
           "home": {
             "qb": false,
@@ -51,21 +51,21 @@
           }
         },
         "pred": {
-          "pHome": 0.6102,
-          "pAway": 0.3898,
-          "expHome": 25,
-          "expAway": 21
+          "pHome": 0.7579,
+          "pAway": 0.2421,
+          "expHome": 28,
+          "expAway": 18
         }
       },
       {
-        "id": "2026_05_NE_DET",
+        "id": "2026_05_MIA_BUF",
         "week": 5,
-        "home": "Detroit Lions",
-        "away": "New England Patriots",
-        "homeScore": 35,
-        "awayScore": 10,
-        "status": "final",
-        "kickoff": "2026-11-15T14:30Z",
+        "home": "Buffalo Bills",
+        "away": "Miami Dolphins",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T18:00Z",
         "abs": {
           "home": {
             "qb": false,
@@ -79,21 +79,77 @@
           }
         },
         "pred": {
-          "pHome": 0.7979,
-          "pAway": 0.2021,
+          "pHome": 0.9355,
+          "pAway": 0.0645,
+          "expHome": 36,
+          "expAway": 10
+        }
+      },
+      {
+        "id": "2026_05_NO_CHI",
+        "week": 5,
+        "home": "Chicago Bears",
+        "away": "New Orleans Saints",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T18:00Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.8376,
+          "pAway": 0.1624,
+          "expHome": 31,
+          "expAway": 15
+        }
+      },
+      {
+        "id": "2026_05_TEN_DAL",
+        "week": 5,
+        "home": "Dallas Cowboys",
+        "away": "Tennessee Titans",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T18:00Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.7967,
+          "pAway": 0.2033,
           "expHome": 30,
           "expAway": 16
         }
       },
       {
-        "id": "2026_05_KC_ATL",
+        "id": "2026_05_TB_DET",
         "week": 5,
-        "home": "Atlanta Falcons",
-        "away": "Kansas City Chiefs",
-        "homeScore": 13,
-        "awayScore": 35,
-        "status": "final",
-        "kickoff": "2026-11-15T18:00Z",
+        "home": "Detroit Lions",
+        "away": "Tampa Bay Buccaneers",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T18:00Z",
         "abs": {
           "home": {
             "qb": false,
@@ -107,21 +163,21 @@
           }
         },
         "pred": {
-          "pHome": 0.1892,
-          "pAway": 0.8108,
-          "expHome": 16,
-          "expAway": 30
+          "pHome": 0.7325,
+          "pAway": 0.2675,
+          "expHome": 28,
+          "expAway": 18
         }
       },
       {
-        "id": "2026_05_HOU_CLE",
+        "id": "2026_05_ARI_KC",
         "week": 5,
-        "home": "Cleveland Browns",
-        "away": "Houston Texans",
-        "homeScore": 27,
-        "awayScore": 24,
-        "status": "final",
-        "kickoff": "2026-11-15T18:00Z",
+        "home": "Kansas City Chiefs",
+        "away": "Arizona Cardinals",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T18:00Z",
         "abs": {
           "home": {
             "qb": false,
@@ -135,21 +191,21 @@
           }
         },
         "pred": {
-          "pHome": 0.5089,
-          "pAway": 0.4911,
-          "expHome": 23,
-          "expAway": 23
+          "pHome": 0.931,
+          "pAway": 0.069,
+          "expHome": 35,
+          "expAway": 11
         }
       },
       {
-        "id": "2026_05_MIN_GB",
+        "id": "2026_05_PIT_PHI",
         "week": 5,
-        "home": "Green Bay Packers",
-        "away": "Minnesota Vikings",
-        "homeScore": 10,
-        "awayScore": 30,
-        "status": "final",
-        "kickoff": "2026-11-15T18:00Z",
+        "home": "Philadelphia Eagles",
+        "away": "Pittsburgh Steelers",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T18:00Z",
         "abs": {
           "home": {
             "qb": false,
@@ -163,21 +219,21 @@
           }
         },
         "pred": {
-          "pHome": 0.4278,
-          "pAway": 0.5722,
-          "expHome": 22,
-          "expAway": 24
+          "pHome": 0.2785,
+          "pAway": 0.7215,
+          "expHome": 18,
+          "expAway": 28
         }
       },
       {
-        "id": "2026_05_JAX_TEN",
+        "id": "2026_05_BAL_CAR",
         "week": 5,
-        "home": "Tennessee Titans",
-        "away": "Jacksonville Jaguars",
-        "homeScore": 23,
-        "awayScore": 40,
-        "status": "final",
-        "kickoff": "2026-11-15T18:00Z",
+        "home": "Carolina Panthers",
+        "away": "Baltimore Ravens",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T18:00Z",
         "abs": {
           "home": {
             "qb": false,
@@ -191,49 +247,21 @@
           }
         },
         "pred": {
-          "pHome": 0.0911,
-          "pAway": 0.9089,
-          "expHome": 12,
-          "expAway": 34
-        }
-      },
-      {
-        "id": "2026_05_MIA_IND",
-        "week": 5,
-        "home": "Indianapolis Colts",
-        "away": "Miami Dolphins",
-        "homeScore": 24,
-        "awayScore": 22,
-        "status": "final",
-        "kickoff": "2026-11-15T18:00Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.6623,
-          "pAway": 0.3377,
+          "pHome": 0.6624,
+          "pAway": 0.3376,
           "expHome": 26,
           "expAway": 20
         }
       },
       {
-        "id": "2026_05_CAR_NO",
+        "id": "2026_05_NYJ_LAC",
         "week": 5,
-        "home": "New Orleans Saints",
-        "away": "Carolina Panthers",
-        "homeScore": 17,
-        "awayScore": 20,
-        "status": "final",
-        "kickoff": "2026-11-15T18:00Z",
+        "home": "Los Angeles Chargers",
+        "away": "New York Jets",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T21:05Z",
         "abs": {
           "home": {
             "qb": false,
@@ -247,21 +275,21 @@
           }
         },
         "pred": {
-          "pHome": 0.5176,
-          "pAway": 0.4824,
-          "expHome": 23,
-          "expAway": 23
+          "pHome": 0.4548,
+          "pAway": 0.5452,
+          "expHome": 22,
+          "expAway": 24
         }
       },
       {
-        "id": "2026_05_BUF_NYJ",
+        "id": "2026_05_LV_DEN",
         "week": 5,
-        "home": "New York Jets",
-        "away": "Buffalo Bills",
-        "homeScore": 12,
-        "awayScore": 31,
-        "status": "final",
-        "kickoff": "2026-11-15T18:00Z",
+        "home": "Denver Broncos",
+        "away": "Las Vegas Raiders",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T21:25Z",
         "abs": {
           "home": {
             "qb": false,
@@ -275,150 +303,94 @@
           }
         },
         "pred": {
-          "pHome": 0.154,
-          "pAway": 0.846,
-          "expHome": 15,
-          "expAway": 31
-        }
-      },
-      {
-        "id": "2026_05_SEA_LV",
-        "week": 5,
-        "home": "Las Vegas Raiders",
-        "away": "Seattle Seahawks",
-        "homeScore": 13,
-        "awayScore": 21,
-        "status": "final",
-        "kickoff": "2026-11-15T21:05Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.3407,
-          "pAway": 0.6593,
-          "expHome": 20,
-          "expAway": 26
-        }
-      },
-      {
-        "id": "2026_05_LAR_ARI",
-        "week": 5,
-        "home": "Arizona Cardinals",
-        "away": "Los Angeles Rams",
-        "homeScore": 6,
-        "awayScore": 34,
-        "status": "final",
-        "kickoff": "2026-11-15T21:05Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.2994,
-          "pAway": 0.7006,
-          "expHome": 19,
-          "expAway": 27
-        }
-      },
-      {
-        "id": "2026_05_SF_DAL",
-        "week": 5,
-        "home": "Dallas Cowboys",
-        "away": "San Francisco 49ers",
-        "homeScore": 40,
-        "awayScore": 46,
-        "status": "final",
-        "kickoff": "2026-11-15T21:25Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.2897,
-          "pAway": 0.7103,
-          "expHome": 19,
-          "expAway": 27
-        }
-      },
-      {
-        "id": "2026_05_PIT_CIN",
-        "week": 5,
-        "home": "Cincinnati Bengals",
-        "away": "Pittsburgh Steelers",
-        "homeScore": 38,
-        "awayScore": 18,
-        "status": "final",
-        "kickoff": "2026-11-16T01:20Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.7639,
-          "pAway": 0.2361,
-          "expHome": 29,
-          "expAway": 17
-        }
-      },
-      {
-        "id": "2026_05_LAC_BAL",
-        "week": 5,
-        "home": "Baltimore Ravens",
-        "away": "Los Angeles Chargers",
-        "homeScore": 20,
-        "awayScore": 23,
-        "status": "final",
-        "kickoff": "2026-11-17T01:15Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.7468,
-          "pAway": 0.2532,
+          "pHome": 0.75,
+          "pAway": 0.25,
           "expHome": 28,
           "expAway": 18
+        }
+      },
+      {
+        "id": "2026_05_JAX_NYG",
+        "week": 5,
+        "home": "New York Giants",
+        "away": "Jacksonville Jaguars",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-22T21:25Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.2449,
+          "pAway": 0.7551,
+          "expHome": 18,
+          "expAway": 28
+        }
+      },
+      {
+        "id": "2026_05_MIN_SF",
+        "week": 5,
+        "home": "San Francisco 49ers",
+        "away": "Minnesota Vikings",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-23T01:20Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.6892,
+          "pAway": 0.3108,
+          "expHome": 27,
+          "expAway": 19
+        }
+      },
+      {
+        "id": "2026_05_CIN_WSH",
+        "week": 5,
+        "home": "Washington Commanders",
+        "away": "Cincinnati Bengals",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled",
+        "kickoff": "2026-11-24T01:15Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.3108,
+          "pAway": 0.6892,
+          "expHome": 19,
+          "expAway": 27
         }
       }
     ],
@@ -827,14 +799,14 @@
   "safe": 0.6,
   "games": [
     {
-      "id": "2026_05_WSH_NYG",
+      "id": "2026_05_IND_HOU",
       "week": 5,
-      "home": "New York Giants",
-      "away": "Washington Commanders",
-      "homeScore": 21,
-      "awayScore": 24,
-      "status": "final",
-      "kickoff": "2026-11-13T01:15Z",
+      "home": "Houston Texans",
+      "away": "Indianapolis Colts",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-20T01:15Z",
       "abs": {
         "home": {
           "qb": false,
@@ -848,21 +820,21 @@
         }
       },
       "pred": {
-        "pHome": 0.6102,
-        "pAway": 0.3898,
-        "expHome": 25,
-        "expAway": 21
+        "pHome": 0.7579,
+        "pAway": 0.2421,
+        "expHome": 28,
+        "expAway": 18
       }
     },
     {
-      "id": "2026_05_NE_DET",
+      "id": "2026_05_MIA_BUF",
       "week": 5,
-      "home": "Detroit Lions",
-      "away": "New England Patriots",
-      "homeScore": 35,
-      "awayScore": 10,
-      "status": "final",
-      "kickoff": "2026-11-15T14:30Z",
+      "home": "Buffalo Bills",
+      "away": "Miami Dolphins",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T18:00Z",
       "abs": {
         "home": {
           "qb": false,
@@ -876,21 +848,77 @@
         }
       },
       "pred": {
-        "pHome": 0.7979,
-        "pAway": 0.2021,
+        "pHome": 0.9355,
+        "pAway": 0.0645,
+        "expHome": 36,
+        "expAway": 10
+      }
+    },
+    {
+      "id": "2026_05_NO_CHI",
+      "week": 5,
+      "home": "Chicago Bears",
+      "away": "New Orleans Saints",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T18:00Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.8376,
+        "pAway": 0.1624,
+        "expHome": 31,
+        "expAway": 15
+      }
+    },
+    {
+      "id": "2026_05_TEN_DAL",
+      "week": 5,
+      "home": "Dallas Cowboys",
+      "away": "Tennessee Titans",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T18:00Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.7967,
+        "pAway": 0.2033,
         "expHome": 30,
         "expAway": 16
       }
     },
     {
-      "id": "2026_05_KC_ATL",
+      "id": "2026_05_TB_DET",
       "week": 5,
-      "home": "Atlanta Falcons",
-      "away": "Kansas City Chiefs",
-      "homeScore": 13,
-      "awayScore": 35,
-      "status": "final",
-      "kickoff": "2026-11-15T18:00Z",
+      "home": "Detroit Lions",
+      "away": "Tampa Bay Buccaneers",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T18:00Z",
       "abs": {
         "home": {
           "qb": false,
@@ -904,21 +932,21 @@
         }
       },
       "pred": {
-        "pHome": 0.1892,
-        "pAway": 0.8108,
-        "expHome": 16,
-        "expAway": 30
+        "pHome": 0.7325,
+        "pAway": 0.2675,
+        "expHome": 28,
+        "expAway": 18
       }
     },
     {
-      "id": "2026_05_HOU_CLE",
+      "id": "2026_05_ARI_KC",
       "week": 5,
-      "home": "Cleveland Browns",
-      "away": "Houston Texans",
-      "homeScore": 27,
-      "awayScore": 24,
-      "status": "final",
-      "kickoff": "2026-11-15T18:00Z",
+      "home": "Kansas City Chiefs",
+      "away": "Arizona Cardinals",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T18:00Z",
       "abs": {
         "home": {
           "qb": false,
@@ -932,21 +960,21 @@
         }
       },
       "pred": {
-        "pHome": 0.5089,
-        "pAway": 0.4911,
-        "expHome": 23,
-        "expAway": 23
+        "pHome": 0.931,
+        "pAway": 0.069,
+        "expHome": 35,
+        "expAway": 11
       }
     },
     {
-      "id": "2026_05_MIN_GB",
+      "id": "2026_05_PIT_PHI",
       "week": 5,
-      "home": "Green Bay Packers",
-      "away": "Minnesota Vikings",
-      "homeScore": 10,
-      "awayScore": 30,
-      "status": "final",
-      "kickoff": "2026-11-15T18:00Z",
+      "home": "Philadelphia Eagles",
+      "away": "Pittsburgh Steelers",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T18:00Z",
       "abs": {
         "home": {
           "qb": false,
@@ -960,21 +988,21 @@
         }
       },
       "pred": {
-        "pHome": 0.4278,
-        "pAway": 0.5722,
-        "expHome": 22,
-        "expAway": 24
+        "pHome": 0.2785,
+        "pAway": 0.7215,
+        "expHome": 18,
+        "expAway": 28
       }
     },
     {
-      "id": "2026_05_JAX_TEN",
+      "id": "2026_05_BAL_CAR",
       "week": 5,
-      "home": "Tennessee Titans",
-      "away": "Jacksonville Jaguars",
-      "homeScore": 23,
-      "awayScore": 40,
-      "status": "final",
-      "kickoff": "2026-11-15T18:00Z",
+      "home": "Carolina Panthers",
+      "away": "Baltimore Ravens",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T18:00Z",
       "abs": {
         "home": {
           "qb": false,
@@ -988,49 +1016,21 @@
         }
       },
       "pred": {
-        "pHome": 0.0911,
-        "pAway": 0.9089,
-        "expHome": 12,
-        "expAway": 34
-      }
-    },
-    {
-      "id": "2026_05_MIA_IND",
-      "week": 5,
-      "home": "Indianapolis Colts",
-      "away": "Miami Dolphins",
-      "homeScore": 24,
-      "awayScore": 22,
-      "status": "final",
-      "kickoff": "2026-11-15T18:00Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.6623,
-        "pAway": 0.3377,
+        "pHome": 0.6624,
+        "pAway": 0.3376,
         "expHome": 26,
         "expAway": 20
       }
     },
     {
-      "id": "2026_05_CAR_NO",
+      "id": "2026_05_NYJ_LAC",
       "week": 5,
-      "home": "New Orleans Saints",
-      "away": "Carolina Panthers",
-      "homeScore": 17,
-      "awayScore": 20,
-      "status": "final",
-      "kickoff": "2026-11-15T18:00Z",
+      "home": "Los Angeles Chargers",
+      "away": "New York Jets",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T21:05Z",
       "abs": {
         "home": {
           "qb": false,
@@ -1044,21 +1044,21 @@
         }
       },
       "pred": {
-        "pHome": 0.5176,
-        "pAway": 0.4824,
-        "expHome": 23,
-        "expAway": 23
+        "pHome": 0.4548,
+        "pAway": 0.5452,
+        "expHome": 22,
+        "expAway": 24
       }
     },
     {
-      "id": "2026_05_BUF_NYJ",
+      "id": "2026_05_LV_DEN",
       "week": 5,
-      "home": "New York Jets",
-      "away": "Buffalo Bills",
-      "homeScore": 12,
-      "awayScore": 31,
-      "status": "final",
-      "kickoff": "2026-11-15T18:00Z",
+      "home": "Denver Broncos",
+      "away": "Las Vegas Raiders",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T21:25Z",
       "abs": {
         "home": {
           "qb": false,
@@ -1072,150 +1072,94 @@
         }
       },
       "pred": {
-        "pHome": 0.154,
-        "pAway": 0.846,
-        "expHome": 15,
-        "expAway": 31
-      }
-    },
-    {
-      "id": "2026_05_SEA_LV",
-      "week": 5,
-      "home": "Las Vegas Raiders",
-      "away": "Seattle Seahawks",
-      "homeScore": 13,
-      "awayScore": 21,
-      "status": "final",
-      "kickoff": "2026-11-15T21:05Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.3407,
-        "pAway": 0.6593,
-        "expHome": 20,
-        "expAway": 26
-      }
-    },
-    {
-      "id": "2026_05_LAR_ARI",
-      "week": 5,
-      "home": "Arizona Cardinals",
-      "away": "Los Angeles Rams",
-      "homeScore": 6,
-      "awayScore": 34,
-      "status": "final",
-      "kickoff": "2026-11-15T21:05Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.2994,
-        "pAway": 0.7006,
-        "expHome": 19,
-        "expAway": 27
-      }
-    },
-    {
-      "id": "2026_05_SF_DAL",
-      "week": 5,
-      "home": "Dallas Cowboys",
-      "away": "San Francisco 49ers",
-      "homeScore": 40,
-      "awayScore": 46,
-      "status": "final",
-      "kickoff": "2026-11-15T21:25Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.2897,
-        "pAway": 0.7103,
-        "expHome": 19,
-        "expAway": 27
-      }
-    },
-    {
-      "id": "2026_05_PIT_CIN",
-      "week": 5,
-      "home": "Cincinnati Bengals",
-      "away": "Pittsburgh Steelers",
-      "homeScore": 38,
-      "awayScore": 18,
-      "status": "final",
-      "kickoff": "2026-11-16T01:20Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.7639,
-        "pAway": 0.2361,
-        "expHome": 29,
-        "expAway": 17
-      }
-    },
-    {
-      "id": "2026_05_LAC_BAL",
-      "week": 5,
-      "home": "Baltimore Ravens",
-      "away": "Los Angeles Chargers",
-      "homeScore": 20,
-      "awayScore": 23,
-      "status": "final",
-      "kickoff": "2026-11-17T01:15Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.7468,
-        "pAway": 0.2532,
+        "pHome": 0.75,
+        "pAway": 0.25,
         "expHome": 28,
         "expAway": 18
+      }
+    },
+    {
+      "id": "2026_05_JAX_NYG",
+      "week": 5,
+      "home": "New York Giants",
+      "away": "Jacksonville Jaguars",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-22T21:25Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.2449,
+        "pAway": 0.7551,
+        "expHome": 18,
+        "expAway": 28
+      }
+    },
+    {
+      "id": "2026_05_MIN_SF",
+      "week": 5,
+      "home": "San Francisco 49ers",
+      "away": "Minnesota Vikings",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-23T01:20Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.6892,
+        "pAway": 0.3108,
+        "expHome": 27,
+        "expAway": 19
+      }
+    },
+    {
+      "id": "2026_05_CIN_WSH",
+      "week": 5,
+      "home": "Washington Commanders",
+      "away": "Cincinnati Bengals",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "scheduled",
+      "kickoff": "2026-11-24T01:15Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.3108,
+        "pAway": 0.6892,
+        "expHome": 19,
+        "expAway": 27
       }
     }
   ],
