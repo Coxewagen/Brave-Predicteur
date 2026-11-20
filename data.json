@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T17:48:26.879042",
-  "updatedLabel": "19/11/2026 a 17:48",
+  "updatedAt": "2026-11-20T17:24:48.828828",
+  "updatedLabel": "20/11/2026 a 17:24",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -34,9 +34,9 @@
         "week": 5,
         "home": "Houston Texans",
         "away": "Indianapolis Colts",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
+        "homeScore": 26,
+        "awayScore": 3,
+        "status": "final",
         "kickoff": "2026-11-20T01:15Z",
         "abs": {
           "home": {
@@ -51,10 +51,10 @@
           }
         },
         "pred": {
-          "pHome": 0.7579,
-          "pAway": 0.2421,
-          "expHome": 28,
-          "expAway": 18
+          "pHome": 0.8278,
+          "pAway": 0.1722,
+          "expHome": 31,
+          "expAway": 15
         }
       },
       {
@@ -664,9 +664,9 @@
       "form": []
     },
     "Houston Texans": {
-      "rec": "3-6",
-      "pf": 233,
-      "pa": 219,
+      "rec": "4-6",
+      "pf": 259,
+      "pa": 222,
       "form": []
     },
     "Buffalo Bills": {
@@ -676,9 +676,9 @@
       "form": []
     },
     "Indianapolis Colts": {
-      "rec": "3-7",
-      "pf": 208,
-      "pa": 271,
+      "rec": "3-8",
+      "pf": 211,
+      "pa": 297,
       "form": []
     },
     "Baltimore Ravens": {
@@ -803,9 +803,9 @@
       "week": 5,
       "home": "Houston Texans",
       "away": "Indianapolis Colts",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
+      "homeScore": 26,
+      "awayScore": 3,
+      "status": "final",
       "kickoff": "2026-11-20T01:15Z",
       "abs": {
         "home": {
@@ -820,10 +820,10 @@
         }
       },
       "pred": {
-        "pHome": 0.7579,
-        "pAway": 0.2421,
-        "expHome": 28,
-        "expAway": 18
+        "pHome": 0.8278,
+        "pAway": 0.1722,
+        "expHome": 31,
+        "expAway": 15
       }
     },
     {
