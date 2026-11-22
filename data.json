@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-21T16:28:55.379720",
-  "updatedLabel": "21/11/2026 a 16:28",
+  "updatedAt": "2026-11-22T16:45:42.426341",
+  "updatedLabel": "22/11/2026 a 16:45",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -29,34 +29,6 @@
     "3": [],
     "4": [],
     "5": [
-      {
-        "id": "2026_05_IND_HOU",
-        "week": 5,
-        "home": "Houston Texans",
-        "away": "Indianapolis Colts",
-        "homeScore": 26,
-        "awayScore": 3,
-        "status": "final",
-        "kickoff": "2026-11-20T01:15Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.8278,
-          "pAway": 0.1722,
-          "expHome": 31,
-          "expAway": 15
-        }
-      },
       {
         "id": "2026_05_MIA_BUF",
         "week": 5,
@@ -363,6 +335,34 @@
           "pAway": 0.3108,
           "expHome": 27,
           "expAway": 19
+        }
+      },
+      {
+        "id": "2026_05_IND_HOU",
+        "week": 5,
+        "home": "Houston Texans",
+        "away": "Indianapolis Colts",
+        "homeScore": 26,
+        "awayScore": 3,
+        "status": "final",
+        "kickoff": "2026-11-20T01:15Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.8278,
+          "pAway": 0.1722,
+          "expHome": 31,
+          "expAway": 15
         }
       },
       {
@@ -799,34 +799,6 @@
   "safe": 0.6,
   "games": [
     {
-      "id": "2026_05_IND_HOU",
-      "week": 5,
-      "home": "Houston Texans",
-      "away": "Indianapolis Colts",
-      "homeScore": 26,
-      "awayScore": 3,
-      "status": "final",
-      "kickoff": "2026-11-20T01:15Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.8278,
-        "pAway": 0.1722,
-        "expHome": 31,
-        "expAway": 15
-      }
-    },
-    {
       "id": "2026_05_MIA_BUF",
       "week": 5,
       "home": "Buffalo Bills",
@@ -1132,6 +1104,34 @@
         "pAway": 0.3108,
         "expHome": 27,
         "expAway": 19
+      }
+    },
+    {
+      "id": "2026_05_IND_HOU",
+      "week": 5,
+      "home": "Houston Texans",
+      "away": "Indianapolis Colts",
+      "homeScore": 26,
+      "awayScore": 3,
+      "status": "final",
+      "kickoff": "2026-11-20T01:15Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.8278,
+        "pAway": 0.1722,
+        "expHome": 31,
+        "expAway": 15
       }
     },
     {
