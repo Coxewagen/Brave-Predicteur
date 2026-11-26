@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-25T18:53:06.182538",
-  "updatedLabel": "25/11/2026 a 18:53",
+  "updatedAt": "2026-11-26T18:42:32.869816",
+  "updatedLabel": "26/11/2026 a 18:42",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -30,39 +30,11 @@
     "4": [],
     "5": [
       {
-        "id": "2026_05_GB_LAR",
-        "week": 5,
-        "home": "Los Angeles Rams",
-        "away": "Green Bay Packers",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
-        "kickoff": "2026-11-26T01:00Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.554,
-          "pAway": 0.446,
-          "expHome": 24,
-          "expAway": 22
-        }
-      },
-      {
         "id": "2026_05_CHI_DET",
         "week": 5,
         "home": "Detroit Lions",
         "away": "Chicago Bears",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayScore": 0,
         "status": "scheduled",
         "kickoff": "2026-11-26T18:00Z",
@@ -137,6 +109,34 @@
         "pred": {
           "pHome": 0.5915,
           "pAway": 0.4085,
+          "expHome": 25,
+          "expAway": 21
+        }
+      },
+      {
+        "id": "2026_05_GB_LAR",
+        "week": 5,
+        "home": "Los Angeles Rams",
+        "away": "Green Bay Packers",
+        "homeScore": 26,
+        "awayScore": 13,
+        "status": "final",
+        "kickoff": "2026-11-26T01:00Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.5928,
+          "pAway": 0.4072,
           "expHome": 25,
           "expAway": 21
         }
@@ -700,9 +700,9 @@
       "form": []
     },
     "LA": {
-      "rec": "6-4",
-      "pf": 248,
-      "pa": 187,
+      "rec": "7-4",
+      "pf": 274,
+      "pa": 200,
       "form": []
     },
     "San Francisco 49ers": {
@@ -838,9 +838,9 @@
       "form": []
     },
     "Green Bay Packers": {
-      "rec": "6-4",
-      "pf": 226,
-      "pa": 221,
+      "rec": "6-5",
+      "pf": 239,
+      "pa": 247,
       "form": []
     },
     "Philadelphia Eagles": {
@@ -883,39 +883,11 @@
   "safe": 0.6,
   "games": [
     {
-      "id": "2026_05_GB_LAR",
-      "week": 5,
-      "home": "Los Angeles Rams",
-      "away": "Green Bay Packers",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
-      "kickoff": "2026-11-26T01:00Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.554,
-        "pAway": 0.446,
-        "expHome": 24,
-        "expAway": 22
-      }
-    },
-    {
       "id": "2026_05_CHI_DET",
       "week": 5,
       "home": "Detroit Lions",
       "away": "Chicago Bears",
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 0,
       "status": "scheduled",
       "kickoff": "2026-11-26T18:00Z",
@@ -990,6 +962,34 @@
       "pred": {
         "pHome": 0.5915,
         "pAway": 0.4085,
+        "expHome": 25,
+        "expAway": 21
+      }
+    },
+    {
+      "id": "2026_05_GB_LAR",
+      "week": 5,
+      "home": "Los Angeles Rams",
+      "away": "Green Bay Packers",
+      "homeScore": 26,
+      "awayScore": 13,
+      "status": "final",
+      "kickoff": "2026-11-26T01:00Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.5928,
+        "pAway": 0.4072,
         "expHome": 25,
         "expAway": 21
       }
