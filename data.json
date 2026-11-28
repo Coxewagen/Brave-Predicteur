@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-27T18:33:22.372298",
-  "updatedLabel": "27/11/2026 a 18:33",
+  "updatedAt": "2026-11-28T17:14:49.097882",
+  "updatedLabel": "28/11/2026 a 17:14",
   "season": 2026,
   "week": 5,
   "weeksAvailable": [
@@ -29,34 +29,6 @@
     "3": [],
     "4": [],
     "5": [
-      {
-        "id": "2026_05_DEN_PIT",
-        "week": 5,
-        "home": "Pittsburgh Steelers",
-        "away": "Denver Broncos",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled",
-        "kickoff": "2026-11-27T20:00Z",
-        "abs": {
-          "home": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          },
-          "away": {
-            "qb": false,
-            "off": 0,
-            "deff": 0
-          }
-        },
-        "pred": {
-          "pHome": 0.5175,
-          "pAway": 0.4825,
-          "expHome": 23,
-          "expAway": 23
-        }
-      },
       {
         "id": "2026_05_GB_LAR",
         "week": 5,
@@ -167,6 +139,34 @@
           "pAway": 0.3818,
           "expHome": 25,
           "expAway": 21
+        }
+      },
+      {
+        "id": "2026_05_DEN_PIT",
+        "week": 5,
+        "home": "Pittsburgh Steelers",
+        "away": "Denver Broncos",
+        "homeScore": 27,
+        "awayScore": 5,
+        "status": "final",
+        "kickoff": "2026-11-27T20:00Z",
+        "abs": {
+          "home": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          },
+          "away": {
+            "qb": false,
+            "off": 0,
+            "deff": 0
+          }
+        },
+        "pred": {
+          "pHome": 0.6352,
+          "pAway": 0.3648,
+          "expHome": 26,
+          "expAway": 20
         }
       },
       {
@@ -784,9 +784,9 @@
       "form": []
     },
     "Pittsburgh Steelers": {
-      "rec": "6-4",
-      "pf": 214,
-      "pa": 201,
+      "rec": "7-4",
+      "pf": 241,
+      "pa": 206,
       "form": []
     },
     "Atlanta Falcons": {
@@ -874,42 +874,14 @@
       "form": []
     },
     "Denver Broncos": {
-      "rec": "8-2",
-      "pf": 236,
-      "pa": 210,
+      "rec": "8-3",
+      "pf": 241,
+      "pa": 237,
       "form": []
     }
   },
   "safe": 0.6,
   "games": [
-    {
-      "id": "2026_05_DEN_PIT",
-      "week": 5,
-      "home": "Pittsburgh Steelers",
-      "away": "Denver Broncos",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "scheduled",
-      "kickoff": "2026-11-27T20:00Z",
-      "abs": {
-        "home": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        },
-        "away": {
-          "qb": false,
-          "off": 0,
-          "deff": 0
-        }
-      },
-      "pred": {
-        "pHome": 0.5175,
-        "pAway": 0.4825,
-        "expHome": 23,
-        "expAway": 23
-      }
-    },
     {
       "id": "2026_05_GB_LAR",
       "week": 5,
@@ -1020,6 +992,34 @@
         "pAway": 0.3818,
         "expHome": 25,
         "expAway": 21
+      }
+    },
+    {
+      "id": "2026_05_DEN_PIT",
+      "week": 5,
+      "home": "Pittsburgh Steelers",
+      "away": "Denver Broncos",
+      "homeScore": 27,
+      "awayScore": 5,
+      "status": "final",
+      "kickoff": "2026-11-27T20:00Z",
+      "abs": {
+        "home": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        },
+        "away": {
+          "qb": false,
+          "off": 0,
+          "deff": 0
+        }
+      },
+      "pred": {
+        "pHome": 0.6352,
+        "pAway": 0.3648,
+        "expHome": 26,
+        "expAway": 20
       }
     },
     {
